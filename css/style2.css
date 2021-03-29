@@ -1,0 +1,93 @@
+body {
+  background-image: url(../img/Market.jpeg);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-size: cover;
+
+  font-size: 14px;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#chart {
+  width: 1000px;
+  height: 400px;
+  margin: 10px 0 10px 20px;
+}
+
+#select {
+  width: 250px;
+  height: 390px;
+  margin: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#select input {
+  margin: 5px 0;
+}
+
+#btnarea {
+  text-align: right;
+  margin: 0 10px 0 0;
+}
+
+#bottom {
+  display: flex;
+}
+
+#backtest fieldset {
+  display: flex;
+  width: 470px;
+  height: 180px;
+  margin: 0 10px 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#optimizer fieldset {
+  display: flex;
+  width: 800px;
+  height: 180px;
+  margin: 0 20px auto 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#opt-config,
+#opt-result li,
+#opt-result table {
+  font-size: 0.9em;
+}
+
+#backtest input,
+#optimizer input {
+  width: 40px;
+  margin: 2px 0;
+}
+
+#returnbtn,
+#backtestbtn,
+#optbtn {
+  margin: 10px 0 0 0;
+}
+
+li {
+  margin: 5px 0 0 0;
+}
+
+th,
+td {
+  border: solid 1px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px 0 10px 20px;
+  text-align: center;
+}

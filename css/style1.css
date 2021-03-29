@@ -1,0 +1,27 @@
+body {
+  background-image: url(../img/Market.jpeg);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form1 {
+  width: 500px;
+  margin: 100px auto 0;
+  font-size: 14px;
+}
+
+.form2 {
+  width: 500px;
+  margin: 50px auto 0;
+  font-size: 14px;
+}
+
+.form1 input,
+.form2 input {
+  margin: 10px 0 0 0;
+}
