@@ -29,4 +29,4 @@ G's camp 最終成果物
 
 ![image](https://user-images.githubusercontent.com/79554085/112905065-c7b04400-9124-11eb-96b7-04cb120ba385.png)
 
-execution.jsを書き換えることで様々な投資戦略に適用可能
+strategy.jsを書き換えることで様々な投資戦略に適用可能
